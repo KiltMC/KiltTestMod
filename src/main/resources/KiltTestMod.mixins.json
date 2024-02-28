@@ -1,12 +1,13 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "xyz.bluspring.kilt.kilttestmod.mixin",
+  "package": "xyz.bluspring.kilt.testmod.mixin",
   "compatibilityLevel": "JAVA_8",
   "refmap": "kilttestmod.refmap.json",
   "mixins": [
   ],
   "client": [
+    "MinecraftMixin"
   ],
   "injectors": {
     "defaultRequire": 1
